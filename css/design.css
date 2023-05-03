@@ -19,10 +19,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background: url(https://i.ibb.co/m0KNscX/makeup.jpg);
+    background: url(https://i.ibb.co/d6PWx76/diagrama.png);
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 * {
@@ -82,12 +83,14 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: var(--color-black);
+    border-radius: 15px;
 }
 
 nav ul li a.active,
 nav ul li a:hover {
-    background: var(--color-pink);
+    background: var(--color-eBIZ);
     border-radius: 15px;
     color: var(--color-white);
-    transition: 0.3s;
+    transition: 0.4s;
+    font-family: "DINNextRoundedLTPro-Medium";
 }

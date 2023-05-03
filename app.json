@@ -1,0 +1,23 @@
+{
+    "imagenes": [
+      {
+        "url": "https://example.com/imagen1.jpg",
+        "titulo": "Imagen 1",
+        "descripcion": "Esta es la primera imagen",
+        "etiquetas": ["naturaleza", "paisaje"]
+      },
+      {
+        "url": "https://example.com/imagen2.jpg",
+        "titulo": "Imagen 2",
+        "descripcion": "Esta es la segunda imagen",
+        "etiquetas": ["ciudad", "edificios"]
+      },
+      {
+        "url": "https://example.com/imagen3.jpg",
+        "titulo": "Imagen 3",
+        "descripcion": "Esta es la tercera imagen",
+        "etiquetas": ["naturaleza", "playa"]
+      }
+    ]
+}
+  
