@@ -1,12 +1,18 @@
+@import url(//db.onlinewebfonts.com/c/f83531ae85a3fcd9345c4267e28833ee?family=DINNextRoundedLTPro-Medium);
+@import url(//db.onlinewebfonts.com/c/8089d3cfb09b48b3e41555be1c9dc537?family=DINNextRoundedLTPro-Light);
+
 :root {
-    --color-purple: #B648B6;
-    --color-ligth-purple: #ffb1e9;
-    --color-pink: #F08FAF;
-    --color-yellow: #F6FF9E;
-    --color-blue: #99D6E9;
-    --color-ligthblue: #D0F0FF;
+    --color-lasalle: #1B2C65;
+    --color-eBIZ: #1B3F85;
+    --color-transparent: #ffffff8c;
     --color-white: #fff;
     --color-black: #202020;
+    --color-sourcing: #0A9AAD;
+    --color-subasta: #36B24A;
+    --color-payment: #A4293D;
+    --color-procurement: #E81F5E;
+    --color-invoicing: #DDA507;
+    --color-finance: #E9580C;
 }
 
 body {
@@ -20,7 +26,8 @@ body {
 }
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: "DINNextRoundedLTPro-Light";
+    /* font-family: "DINNextRoundedLTPro-Medium"; */
 }
 
 header {
