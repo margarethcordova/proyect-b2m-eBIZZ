@@ -13,23 +13,19 @@
     --color-procurement: #E81F5E;
     --color-invoicing: #DDA507;
     --color-finance: #E9580C;
+    --font-family-light:"DINNextRoundedLTPro-Light";
+    --font-family-medium: "DINNextRoundedLTPro-Medium";
 }
-
+* {
+    font-family:var(--font-family-light);
+}
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(https://i.ibb.co/d6PWx76/diagrama.png);
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
-* {
-    font-family: "DINNextRoundedLTPro-Light";
-    /* font-family: "DINNextRoundedLTPro-Medium"; */
-}
+
 
 header {
     top: 0;
