@@ -46,13 +46,6 @@ $.getJSON("../json/data.json", function (data) {
 
     });
 });
-// function agregarPreder() {
-//     var agregarPreder = `<div id="busquedaPreder" class="busqueda-blanca">
-//         <p>+</p>
-//         <h2 class="text-preder">Escoge una empresa para comenzar</h2>
-//                 </div>`;
-//     $(".result-empresa").add(agregarPreder);
-// }
 
 function limpiarBusqueda(elemento) {
     while (elemento.firstChild) {
