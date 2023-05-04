@@ -3,18 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Buscador de imágenes</title>
+  <link rel="stylesheet" href="diseño.css">
 </head>
 <body>
   <h1>Buscador de imágenes</h1>
   
   <form>
     <label for="buscar">Buscar:</label>
-    <input type="text" id="buscar" name="buscar">
-    <button type="submit">Buscar</button>
+    <input type="text" id="campo_busqueda" name="buscar">
+    <input type="button" id="boton_buscar">Buscar</input>
   </form>
   
-  <div id="resultado"></div>
+  <div class="container">
+    <div id="resultados_busqueda" class="impreso">
+    </div>
+    <div class="frase">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit at quae, quas reprehenderit eaque perspiciatis laudantium. Corrupti ex eaque excepturi?</p>
+    </div>
+  </div>
   
+  
+
+  <!------------------- CDN JQUERY ------------------->
+  <script src="https://code.jquery.com/jquery-3.6.4.js"
+  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
   <script src="script.js"></script>
+  <script src="datos.json"></script>
 </body>
 </html>

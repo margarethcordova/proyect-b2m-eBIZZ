@@ -7,19 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Principal</title>
     <link rel="stylesheet" href="../css/design.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <header>
         <a href="#inicio" id="logoMb" class="logo">
-            <img src="https://i.ibb.co/hcfMqpH/ebiz-iso-1.png" class="logo-mb">
+            <img src="https://i.ibb.co/LknH2wf/e-BIZ-Isologotipo-slogan-pos.png" class="logo-mb">
         </a>
         <div class="menu-burger"></div>
         <nav>
             <ul>
-                <li><a href="#manual">Manual de Apoyo</a></li>
-                <li><a href="#cerrarsesion">Cerrar Sesión</a></li>
                 <li><a href="#contacto">Contactos</a></li>
+                <li><a href="#cerrarsesion">Cerrar Sesión</a></li>
             </ul>
         </nav>
     </header>
@@ -28,35 +30,66 @@
             <div class="sections-container">
                 <div class="section-one">
                     <div class="saludo">
-                        <div class="result">
-                            <h1>Hola, <span class="name-user">Proveedor</span>🖐</h1>
+                        <div class="result-saludo">
+                            <h1>Hola, <span class="name-user">Proveedor</span> 🖐</h1>
                         </div>
                     </div>
                     <div class="manual-Apoyo">
                         <div class="btn-apoyo">
-                            <h1>?</h1>
+                            <h1 class="question">?</h1>
                         </div>
                     </div>
                 </div>
                 <div class="section-two">
                     <div class="perfil-empresa">
                         <div class="result-empresa">
-                            <div class="superior">
+                            <div id="busquedaPreder" class="busqueda-blanca">
+                                <p>+</p>
+                                <h2 class="text-preder">Escoge una empresa para comenzar</h2>
+                            </div>
+                            <div id="resultados_busqueda"></div>
+
+
+                            <!-- <div class="superior">
                                 <div class="logo-empresa">
-                                    <img src="" alt="">
+                                    <img src="https://i.ibb.co/x836rXN/alicorp.png" alt="marca" width="50%">
                                 </div>
                                 <div class="btn-presenta">
                                     <button class="informacion">
-
+                                        Solicitar Información de registro
                                     </button>
+                                </div>
+                            </div>
+                            <div class="inferior">
+                                <div class="info-empresa">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vel expedita at ullam fugit, quidem eum distinctio laborum, amet dicta, dolorum doloribus doloremque optio officiis iste est consequatur consequuntur. Quisquam.</p>
+                                </div>
+                                <div class="funcionalidades-empresa">
+                                    <div class="funcion"></div>
+                                    <div class="funcion"></div>
+                                    <div class="funcion"></div>
+                                    <div class="funcion"></div>
+                                    <div class="funcion"></div>
+                                    <div class="funcion"></div>
+                                    <div class="funcion"></div>
+                                    <div class="funcion"></div>
+                                </div>
+                            </div> -->
+                            <div class="documentos">
+                                <div class="bton-modal-document">
+                                    <button>TABLON DE DOCUMENTOS</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="buscador-empresa">
-                        <div class="buscador-resultado">
+                        <div class="buscador-container">
                             <div class="searchbox">
-                                <input type="text" name="" id="">
+                                <input type="text" id="campo_busqueda" name="buscar">
+                                <input type="button" id="boton_buscar" value="Buscar"></input>
+                            </div>
+                            <div class="resultados-container">
+
                             </div>
                         </div>
 
@@ -68,6 +101,19 @@
     <footer>
 
     </footer>
+    <!------------------- CDN JQUERY ------------------->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <!------------------- CDN AOS ANIMATION ------------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!------------------- JAVASCRIP NUESTRO ------------------->
+    <script src="../js/app.js"></script>
+    <script src="../json/data.json"></script>
 </body>
 
 </html>

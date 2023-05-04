@@ -1,0 +1,38 @@
+[
+    {
+        "titulo": "Alicorp",
+        "imagen": "https://i.ibb.co/x836rXN/alicorp.png",
+        "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vel expedita at ullam fugit, quidem eum distinctio laborum, amet dicta, dolorum doloribus doloremque optio officiis iste est consequatur consequuntur. Quisquam.",
+        "sub_imagenes": [
+            "https://i.ibb.co/XC133SW/registra.png",
+            "https://i.ibb.co/FVFR01T/visualiza.png",
+            "https://i.ibb.co/GpbVmM2/negociacion.png"
+        ]
+    },
+    {
+        "titulo": "Consorcio Minero Horizonte",
+        "imagen": "https://i.ibb.co/S33GYHb/horizonte.jpg",
+        "texto": "En Consorcio Minero Horizonte apostamos por optimizar nuestros procesos y simplificar la forma de hacer negocios, y estamos convencidos que la manera de alcanzar ese objetivo involucra el aprovechamiento de la tecnología digital. Una de estas herramientas digitales innovadoras es B2M de eBIZ. Por ello, a partir de la fecha, todos nuestros proveedores podrán hacer uso y gozar de los beneficios de esta plataforma. ",
+        "sub_imagenes": [
+            "https://i.ibb.co/chVcPwt/cotizaciones.png",
+            "https://i.ibb.co/XC133SW/registra.png",
+            "https://i.ibb.co/JcmLtRC/facturas.png",
+            "https://i.ibb.co/fd0PSPM/confirmacion.png",
+            "https://i.ibb.co/FVFR01T/visualiza.png",
+            "https://i.ibb.co/wCZL7rt/estado-pago.png",
+            "https://i.ibb.co/kQQP6XL/descarga.png"
+        ]
+    },
+    {
+        "titulo": "EBIZ",
+        "imagen": "https://i.ibb.co/LknH2wf/e-BIZ-Isologotipo-slogan-pos.png",
+        "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vel expedita at ullam fugit, quidem eum distinctio laborum, amet dicta, dolorum doloribus doloremque optio officiis iste est consequatur consequuntur. Quisquam.",
+        "sub_imagenes": [
+            "https://i.ibb.co/XC133SW/registra.png",
+            "https://i.ibb.co/FVFR01T/visualiza.png",
+            "https://i.ibb.co/wCZL7rt/estado-pago.png",
+            "https://i.ibb.co/GpbVmM2/negociacion.png",
+            "https://i.ibb.co/chVcPwt/cotizaciones.png"
+        ]
+    }
+]
