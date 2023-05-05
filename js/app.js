@@ -2,7 +2,27 @@ $(document).ready(function () {
     $('.menu-burger').click(function () {
         $('.menu-burger').toggleClass('active')
         $('nav').toggleClass('active')
-    })
+    });
+
+    $("#mi_popup").show();
+
+    // Cuando el usuario hace clic en el botón de "Cerrar" dentro de la ventana pop-up
+    $(".cerrar").click(function () {
+        // Ocultar la ventana pop-up
+        $("#mi_popup").hide();
+    });
+
+    // Cuando el usuario hace clic en el botón de "Abrir modal"
+    $("#abrir_modal").click(function () {
+        // Mostrar la ventana modal
+        $("#mi_modal").show();
+    });
+
+    // Cuando el usuario hace clic en el botón de "Cerrar" dentro de la ventana modal
+    $(".cerrar").click(function () {
+        // Ocultar la ventana modal
+        $("#mi_modal").hide();
+    });
 });
 
 // Cargar archivo JSON
@@ -36,7 +56,7 @@ $.getJSON("../json/data.json", function (data) {
                 limpiarBusqueda(document.getElementById("resultados_busqueda"));
                 // limpiarBusqueda(document.getElementById("busquedaPreder"));
 
-                // document.getElementById("busquedaPreder").remove();
+                document.getElementById("busquedaPreder").remove();
 
                 // Imprimir el HTML en el contenedor de resltados
                 $("#resultados_busqueda").append(resultado_html);
