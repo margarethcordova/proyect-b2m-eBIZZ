@@ -13,7 +13,7 @@ formIniciarSesion.addEventListener("submit",async(event)=>{
         
         try {
             await signInWithEmailAndPassword(auth,correo,contra);
-            location.href = "http://127.0.0.1:5500/html/principal.html";
+            location.href = "../html/principal";
         } catch (error) {
             console.log("Algo salio mal",error);
         }

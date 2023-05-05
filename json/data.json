@@ -2,11 +2,12 @@
     {
         "titulo": "Alicorp",
         "imagen": "https://i.ibb.co/x836rXN/alicorp.png",
-        "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vel expedita at ullam fugit, quidem eum distinctio laborum, amet dicta, dolorum doloribus doloremque optio officiis iste est consequatur consequuntur. Quisquam.",
+        "texto": "En ALICORP apostamos por crecer en conjunto con cada uno de nuestros proveedores, y estamos convencidos que la manera de alcanzar esa meta involucra el aprovechamiento de las tecnologías y prácticas comerciales que simplifiquen el proceso de hacer negocios. Una de estas herramientas tecnológicas innovadoras es B2M de eBIZ. Por ello, los proveedores activos en las operaciones de cualquiera de nuestras sociedades en forma imprescindible deberán utilizarlo.",
         "sub_imagenes": [
-            "https://i.ibb.co/XC133SW/registra.png",
-            "https://i.ibb.co/FVFR01T/visualiza.png",
-            "https://i.ibb.co/GpbVmM2/negociacion.png"
+            "https://i.ibb.co/fd0PSPM/confirmacion.png",
+            "https://i.ibb.co/JcmLtRC/facturas.png",
+            "https://i.ibb.co/wCZL7rt/estado-pago.png",
+            "https://i.ibb.co/kQQP6XL/descarga.png"
         ]
     },
     {
@@ -21,18 +22,29 @@
             "https://i.ibb.co/FVFR01T/visualiza.png",
             "https://i.ibb.co/wCZL7rt/estado-pago.png",
             "https://i.ibb.co/kQQP6XL/descarga.png"
+        ],
+        "documentos": [
+            "https://www.ebiz.pe/wp-content/uploads/2022/07/comunicado-proveedores-portal.pdf",
+            "https://alicorp-bpm-qa.simbius.cloud/networking/registro-contacto-proveedor-alc.html",
+            "https://forms.office.com/pages/responsepage.aspx?id=xn7LzsUCJkSx7MsrIVwPQ3JviRhnAGFLpuzpMzMS7ARUQUdYRTRNRjM1MExZTTQ3M044Q1M3MFhWMyQlQCN0PWcu",
+            "https://www.ebiz.pe/wp-content/uploads/2022/05/cronograma-de-recepcion-2022-electronicas.pdf",
+            "https://www.ebiz.pe/wp-content/uploads/2022/05/cronogramas-de-pagos.pdf",
+            "https://forms.office.com/pages/responsepage.aspx?id=bWEWO3TxekmhrpANhRBploGyMSgQGNtLtPpELR-NwIhUM1dESUw3MVBQSFhMUU5NQjlNNTQ3UkNXTi4u"
         ]
     },
     {
-        "titulo": "EBIZ",
+        "titulo": "eBIZ",
         "imagen": "https://i.ibb.co/LknH2wf/e-BIZ-Isologotipo-slogan-pos.png",
-        "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vel expedita at ullam fugit, quidem eum distinctio laborum, amet dicta, dolorum doloribus doloremque optio officiis iste est consequatur consequuntur. Quisquam.",
+        "texto": "En eBIZ Latin America apostamos por crecer junto con cada una de las empresas proveedoras usuarias de nuestras plataformas, simplificando su manera de hacer negocios, agilizando su relación con los compradores, y conectándoles a nuevas oportunidades.",
         "sub_imagenes": [
+            "https://i.ibb.co/kQQP6XL/descarga.png",
+            "https://i.ibb.co/fd0PSPM/confirmacion.png",
             "https://i.ibb.co/XC133SW/registra.png",
             "https://i.ibb.co/FVFR01T/visualiza.png",
-            "https://i.ibb.co/wCZL7rt/estado-pago.png",
+            "https://i.ibb.co/chVcPwt/cotizaciones.png",
             "https://i.ibb.co/GpbVmM2/negociacion.png",
-            "https://i.ibb.co/chVcPwt/cotizaciones.png"
+            "https://i.ibb.co/JcmLtRC/facturas.png",
+            "https://i.ibb.co/wCZL7rt/estado-pago.png"
         ]
     }
 ]

@@ -1,0 +1,48 @@
+@import url(//db.onlinewebfonts.com/c/f83531ae85a3fcd9345c4267e28833ee?family=DINNextRoundedLTPro-Medium);
+@import url(//db.onlinewebfonts.com/c/8089d3cfb09b48b3e41555be1c9dc537?family=DINNextRoundedLTPro-Light);
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-imagen {
+    position: relative;
+    display: flex;
+    margin: 20px;
+    width: 300px;
+    
+}
+.contenedor-imagen>img{
+    width: 100%;
+    transition: transform 0.3s ease;
+    
+}
+
+.contenedor-imagen:hover img {
+    transform: scale(1.2);
+  }
+
+  .texto-imagen {
+    border: 2px solid var(#1B2C65);
+    text-transform: capitalize;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #130f0f;
+    padding: 25px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: relative;
+}
+
+.container{
+    gap: 20px;
+}
+

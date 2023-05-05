@@ -12,6 +12,7 @@ $(document).ready(function () {
         $("#mi_popup").hide();
     });
 
+    $("#mi_modal").hide();
     // Cuando el usuario hace clic en el botón de "Abrir modal"
     $("#abrir_modal").click(function () {
         // Mostrar la ventana modal
@@ -23,6 +24,24 @@ $(document).ready(function () {
         // Ocultar la ventana modal
         $("#mi_modal").hide();
     });
+
+    $('.contenedor-imagen').hover(function () {
+        $('.texto-imagen', this).css('opacity', '1');
+    }, function () {
+        $('.texto-imagen', this).css('opacity', '0');
+    });
+
+
+    // Al hacer clic en el botón, mostrar la ventana modal
+    $("#abrirModalContacto").click(function () {
+        $("#modalContacto").show();
+    });
+
+    // Al hacer clic en la equis, ocultar la ventana modal
+    $("#modalContacto .close").click(function () {
+        $("#modalContacto").hide();
+    });
+
 });
 
 // Cargar archivo JSON
@@ -56,15 +75,18 @@ $.getJSON("../json/data.json", function (data) {
                 limpiarBusqueda(document.getElementById("resultados_busqueda"));
                 // limpiarBusqueda(document.getElementById("busquedaPreder"));
 
-                document.getElementById("busquedaPreder").remove();
+                $("#busquedaPreder").hide();
 
                 // Imprimir el HTML en el contenedor de resltados
                 $("#resultados_busqueda").append(resultado_html);
+            } else {
+                $("#busquedaPreder").add();
             }
 
         });
 
     });
+
 });
 
 function limpiarBusqueda(elemento) {

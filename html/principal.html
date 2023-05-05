@@ -20,17 +20,80 @@
         <div class="menu-burger"></div>
         <nav>
             <ul>
-                <li><a href="#contacto">Contactos</a></li>
-                <li><a href="#cerrarsesion">Cerrar Sesión</a></li>
+                <li><a id="abrirModalContacto">Contactos</a></li>
+                <li><a href="../login/login.html" id="btnCerrarSesion">Cerrar Sesión</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div id="modalContacto" class="modal-contacto">
+            <div class="modalContacto">
+                <span class="close">&times;</span>
+                <div class="modal-item">
+                    <a href="https://ebiz.pe/b2m-contacto-proveedores/">FORMULARIO DE CONTACTO</a>
+                </div>
+                <div class="modal-item">
+                    <a href="mailto:soluciones@ebizlatin.com?subject=ALICORP%20EMPRESA%20CONTACTO"">MESA DE AYUDA DE EBIZ</a>
+                </div>
+                <div class="modal-item">
+                    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=xn7LzsUCJkSx7MsrIVwPQ0mzIBs-yw1FkFzf_hMG_JZUQVhMNFcySTBIODNGWU9KNENUTzgwSjVWSi4u">INSCRIBETE A LAS CAPACITACIONES</a>
+                </div>
+                <div class="modal-item">
+                    <a href="https://www.b2miningdata.com/ui/login">CHATEA A TRAVES DE B2M</a>
+                </div>
+            </div>
+        </div>
+
         <div id="mi_modal" class="modal">
             <div class="modal-contenido">
                 <span class="cerrar">&times;</span>
-                <h2>Título de la ventana modal</h2>
-                <p>Contenido de la ventana modal.</p>
+                <h2>MANUAL DE APOYO</h2>
+                <p>Dependiendo de las funcionalidades habilitadas por tus clientes compradores, podrás
+                    acceder a más de una de las siguientes funcionalidades de:</p>
+                    <div class="container-manual">
+                    <div class="contenedor-imagen">
+                        <img src="https://i.ibb.co/WcjCWxM/icono1.png" alt="Descripción de la imagen">
+                        <div class="texto-imagen">Especificaciones correctas que describan con claridad,sin
+                            ambigüedades,en
+                            forma consistente y compacta,el comportamiento del sistema.</div>
+                    </div>
+
+                    <div class="contenedor-imagen">
+                        <img src="https://i.ibb.co/d7kn0rt/icono2.png" alt="Descripción de la imagen">
+                        <div class="texto-imagen">Oportunidades de compra y venta de las Subastas Electrónicas de
+                            empresas.
+                        </div>
+                    </div>
+
+                    <div class="contenedor-imagen">
+                        <img src="https://i.ibb.co/6WCmKrt/icono3.png" alt="Descripción de la imagen">
+                        <div class="texto-imagen">Descuento realizado tanto en el pago como en el cobro, que
+                            generalmente,
+                            se aplica al pago de los futuros impuestos.</div>
+                    </div>
+
+                    <div class="contenedor-imagen">
+                        <img src="https://i.ibb.co/yFYCm21/icono4.png" alt="Descripción de la imagen">
+                        <div class="texto-imagen">Prueba documentada de que el producto o servicio fue revisado y su
+                            estado
+                            es aceptable antes de la entrega al cliente.</div>
+                    </div>
+
+                    <div class="contenedor-imagen">
+                        <img src="https://i.ibb.co/PmMPcMg/icono5.png" alt="Descripción de la imagen">
+                        <div class="texto-imagen">Documento que cumple con los requisitos legales y reglamentarios
+                            exigibles
+                            para todos los comprobantes de venta.</div>
+                    </div>
+
+                    <div class="contenedor-imagen">
+                        <img src="https://i.ibb.co/ZHjCgLq/icono6.png" alt="Descripción de la imagen">
+                        <div class="texto-imagen">Contrato mediante el cual una empresa traspasa las facturas que ha
+                            emitido
+                            y a cambio obtiene de manera inmediata el dinero.</div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -39,7 +102,7 @@
                 <span class="cerrar">&times;</span>
                 <h2>BIENVENIDO A LA ZONA DE PROVEEDORES</h2>
                 <p>Dependiendo de las funcionalidades habilitadas por tus clientes compradores, podrás acceder a más de
-                    una de las siguientes funcionalidades</p>
+                    una de las siguientes funcionalidades que eBIZ propone</p>
             </div>
         </div>
         <div class="container">
@@ -64,33 +127,6 @@
                                 <h2 class="text-preder">Escoge una empresa para comenzar</h2>
                             </div>
                             <div id="resultados_busqueda"></div>
-
-
-                            <!-- <div class="superior">
-                                <div class="logo-empresa">
-                                    <img src="https://i.ibb.co/x836rXN/alicorp.png" alt="marca" width="50%">
-                                </div>
-                                <div class="btn-presenta">
-                                    <button class="informacion">
-                                        Solicitar Información de registro
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="inferior">
-                                <div class="info-empresa">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vel expedita at ullam fugit, quidem eum distinctio laborum, amet dicta, dolorum doloribus doloremque optio officiis iste est consequatur consequuntur. Quisquam.</p>
-                                </div>
-                                <div class="funcionalidades-empresa">
-                                    <div class="funcion"></div>
-                                    <div class="funcion"></div>
-                                    <div class="funcion"></div>
-                                    <div class="funcion"></div>
-                                    <div class="funcion"></div>
-                                    <div class="funcion"></div>
-                                    <div class="funcion"></div>
-                                    <div class="funcion"></div>
-                                </div>
-                            </div> -->
                             <div class="documentos">
                                 <div class="bton-modal-document">
                                     <button>TABLON DE DOCUMENTOS</button>
@@ -101,19 +137,18 @@
                     <div class="buscador-empresa">
                         <div class="buscador-container">
                             <div class="searchbox">
-                                <input type="text" id="campo_busqueda" name="buscar">
-                                <input type="button" id="boton_buscar" value="Buscar"></input>
+                                <input id="campo_busqueda" type="search" placeholder="Buscar Comprador" autofocus required />
+                                <button id="boton_buscar">BUSCAR</button> 
+                                
                             </div>
-                            <div class="resultados-container">
 
-                            </div>
                         </div>
 
                     </div>
                 </div>
                 <div class="section-three">
                     <div class="ruta-b2m">
-                        <a href="http://" target="_blank">Ya conoces las ultimas Actualizaciones <img
+                        <a href="https://www.b2miningdata.com/ui/login" target="_blank">Ya conoces nuestras ultimas funcionalidades! <img
                                 src="https://i.ibb.co/S7sf4r3/B2-M-logotipo-neg.png" alt="b2m"></a>
                     </div>
                 </div>
@@ -133,7 +168,14 @@
     <script>
         AOS.init();
     </script>
+    <script>
+        const boton = document.getElementById('miBoton');
+        const ventanaModal = document.getElementById('miVentanaModal');
 
+        boton.addEventListener('click', function () {
+            ventanaModal.style.display = 'block';
+        });
+    </script>
     <!------------------- JAVASCRIP NUESTRO ------------------->
     <script src="../js/app.js"></script>
     <script src="../json/data.json"></script>
