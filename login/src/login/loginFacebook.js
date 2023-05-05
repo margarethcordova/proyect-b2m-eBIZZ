@@ -10,7 +10,7 @@ btnLoginFacebook.onclick = async function(){
 
      try {
          await signInWithPopup(auth,provider);
-         location.href = "./scr";
+         location.href = "http://127.0.0.1:5500/html/principal.html";
      } catch (error) {
          console.log("Algo salio mal",error);
      }

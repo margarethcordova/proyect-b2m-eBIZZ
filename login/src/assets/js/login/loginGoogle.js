@@ -12,7 +12,7 @@ btnLoginGoogle.onclick = async function(){
     
     try {
         await signInWithPopup(auth,provider);       
-        location.href = "pagina2.html";
+        location.href = "http://127.0.0.1:5500/html/principal.html";
     } catch (error) {
         console.log("Algo salio mal",error);
     }
